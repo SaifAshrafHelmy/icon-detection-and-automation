@@ -1,0 +1,24 @@
+[project]
+name = "desktop-icon-grounding"
+version = "0.1.0"
+description = "Vision-based desktop automation with dynamic icon grounding"
+requires-python = ">=3.11,<3.12"
+
+dependencies = [
+    "flask",
+    "torch",
+    "transformers",
+    "accelerate",
+    "qwen-vl-utils",
+    "easyocr",
+    "pillow",
+    "numpy",
+    "pyngrok",
+    "pyautogui",
+    "pyperclip",
+    "requests",
+    "keyboard",
+]
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
